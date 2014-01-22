@@ -15,7 +15,6 @@ sdk.auth({
       kbps: 192
     }, function (err, result) {
       console.log(result.song);
-      
     });
   });
 });
