@@ -30,6 +30,8 @@
     "url": "https://github.com/JacksonTian/douban.fm.node/issues"
   },
   "dependencies": {
+    "beer": "*",
+    "underscore": "*"
   },
   "devDependencies": {
     "mocha": "*",
