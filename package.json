@@ -1,0 +1,41 @@
+{
+  "name": "douban.fm.node",
+  "version": "0.2.1",
+  "description": "Node.js Douban.FM SDK",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "config": {
+    "blanket": {
+      "pattern": "douban.fm.node/lib",
+      "data-cover-flags": {
+        "debug": false
+      }
+    },
+    "travis-cov": {
+      "threshold": 98
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JacksonTian/douban.fm.node.git"
+  },
+  "keywords": [
+    "douban.fm"
+  ],
+  "author": "Jackson Tian",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JacksonTian/douban.fm.node/issues"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*",
+    "blanket": "*",
+    "travis-cov": "*",
+    "mocha-lcov-reporter": "*"
+  }
+}
