@@ -31,6 +31,7 @@ api.getPlayList(0, function (err, songs) {
   }
   // your list
 });
+```
 
 ## License
 The MIT Licese
