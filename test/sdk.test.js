@@ -72,4 +72,31 @@ describe('adk', function () {
       });
     });
   });
+
+  describe('love', function () {
+    var account;
+    before(function (done) {
+      sdk.auth({
+        email: 'shyvo1987@gmail.com',
+        password: 'jackson_123'
+      }, function (err, info) {
+        should.not.exist(err);
+        account = info;
+        done();
+      });
+    });
+
+    it('should ok', function (done) {
+      sdk.fetch({
+        channel: 0,
+        user_id: account.user_id,
+        expire: account.expire,
+        token: account.token,
+        kbps: 192
+      }, function (err, result) {
+        should.not.exist(err);
+        done();
+      });
+    });
+  });
 });

@@ -1,6 +1,6 @@
 {
   "name": "douban.fm.node",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Node.js Douban.FM SDK",
   "main": "index.js",
   "scripts": {
@@ -30,8 +30,7 @@
     "url": "https://github.com/JacksonTian/douban.fm.node/issues"
   },
   "dependencies": {
-    "beer": "*",
-    "underscore": "*"
+    "urllib": "*"
   },
   "devDependencies": {
     "mocha": "*",
